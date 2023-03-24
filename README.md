@@ -1,2 +1,2 @@
-# opensudan.github.io
+# Open Sudan | open.sd
 Open Sudan Website
