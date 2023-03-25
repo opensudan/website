@@ -1,3 +1,4 @@
+theme: cayman
 # Open Sudan | open.sd
 Open Sudan Website
 
