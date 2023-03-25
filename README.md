@@ -2,7 +2,7 @@
 ![Logo](https://github.com/opensudan/opensudan.github.io/blob/98d45d3b48983114ce85c5159021277c900d25e3/img/logo.png)
 
 
-[View the Website](open.sd)
+[View the Website](https://open.sd)
 
 # Open Sudan Website
 
