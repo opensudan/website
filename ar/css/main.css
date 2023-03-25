@@ -33,7 +33,7 @@ body {
   background-size: cover;
   color: #fff;
   text-align: center;
-  font-family: 'Quicksand', sans-serif; }
+  font-family: 'Tajawal', sans-serif; }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
@@ -80,9 +80,9 @@ body {
 
 @media (min-width: 768px) {
   .masthead-brand {
-    float: left; }
+    float: right; }
   .nav-masthead {
-    float: right; } }
+    float: left; } }
 
 /*
  * Cover
@@ -99,25 +99,21 @@ body {
 .cover-heading {
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 10px;
   font-size: 2rem;
   margin-bottom: 5rem; }
 
   .cover-sub-heading {
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 10px;
     font-size: 1.2rem;
     margin-bottom: 5rem; }
 
 @media (min-width: 768px) {
   .cover-heading {
-    font-size: 2.8rem;
-    letter-spacing: 15px; } 
+    font-size: 2.8rem; } 
 
     .cover-sub-heading {
-         font-size: 1.8rem;
-    letter-spacing: 4px; }
+         font-size: 1.8rem; }
 
   }
 
