@@ -1,27 +1,58 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Open Sudan</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<header>
-		<a href="#"><img src="logo.png" alt="Open Sudan Logo"></a>
-		<a href="https://discord.gg/P7MMjFc5vW" class="join-now-button"><i class="fab fa-discord"></i>Join Now</a>
-	</header>
-
-	<main>
-		<section id="banner">
-			<h2>Unite. Share. Collaborate.</h2>
-			<p>Join the Open Sudan community and connect with Sudanese developers around the world.</p>
-            <a href="https://discord.gg/P7MMjFc5vW" class="join-now-button-middle"><i class="fab fa-discord"></i>Join Now</a>
-		</section>
-	</main>
-
-	<footer>
-		<p>&copy; 2023 Open Sudan. All rights reserved.</p>
-	</footer>
-	<script src="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css" crossorigin="anonymous"></script>
-</body>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Open Sudan - Developer Community</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap"/>
+    </noscript>
+    <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.2.0" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  </head>
+  <body id="top"><div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="masthead clearfix">
+        <div class="inner">
+          <img class="masthead-brand" src="img/logo.png" >
+          <nav class="nav nav-masthead">
+            <!-- <a class="nav-link nav-social" href="#" title="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a class="nav-link nav-social" href="#" title="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a class="nav-link nav-social" href="#" title="Youtube"><i class="fab fa-youtube" aria-hidden="true"></i></a> -->
+            <a class="nav-link nav-social" href="https://discord.gg/P7MMjFc5vW" title="Discord"><i class="fab fa-discord" aria-hidden="true"></i></a>
+            <a class="nav-link nav-social" href="https://github.com/opensudan" title="Github"><i class="fab fa-github" aria-hidden="true"></i></a>
+          </nav>
+        </div>
+      </div>      
+      <div class="inner cover">
+        <h1 class="cover-heading">Code. Share. Collaborate.</h1>
+        <h2 class="cover-sub-heading">Join Open Sudan Today!</h2>
+        <p class="lead cover-copy">Welcome to Open Sudan, the community for Sudanese developers. Join us to code, share, and collaborate on open-source projects. Let's build a thriving tech industry in Sudan and make our mark on the world.</p>
+        <p class="lead"><button type="button" class="btn btn-lg btn-default btn-notify" onclick="openDiscordByMethod()" >Join Us Now On Discord <i class="fab fa-discord" aria-hidden="true"></i></button></p>
+      </div>
+      <div class="mastfoot">
+        <div class="inner">
+          <p>&copy; Open Sudan - Developer Community .</p>
+        </div>
+      </div>
+      
+  </div>
+</div>
+    <script>
+      function openDiscordByMethod(){
+      window.open("https://discord.gg/P7MMjFc5vW")
+    }
+    </script>
+    <script src="scripts/jquery.slim.min.js?ver=1.2.0"></script>
+    <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+    <script src="scripts/main.js?ver=1.2.0"></script>
+  </body>
 </html>
